@@ -14,6 +14,7 @@ height:600px;
 border:1px solid black;
 margin: 0 auto;
 background: white;
+position: relative;
 
 }
 h2{
@@ -33,6 +34,7 @@ h4{
 
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
+	margin: 16px;
 
 
 }
@@ -40,14 +42,75 @@ h4{
 input {
 
     
-	width: 270px;
+	width: 326px;
     height: 45px;
     left: 16px;
+    border: 0.5px solid #5F2074;
+    box-sizing: border-box;
+    border-radius: 20px;
 
    }
 
 h5 {
-	
+	left: 16px;
+	margin: 16px;
+
+
+}
+input{
+
+	width: 248px;
+    height: 46px;
+    left: 16px;
+    text-align: center;
 }
 
+.contrasena{
+	margin-bottom: 42px;
+	margin-left: 16px;
+
+}
+
+
+.enviar{
+	background: linear-gradient(180deg, #941B80 0%, #2B2468 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+	margin-left: 16px;
+
+}
+
+h6 {
+
+	
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+
+
+/* Principal */
+
+color: #5F2074;
+}
+.correo{
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.facebook{
+	width: 31px;
+    height: 31px;
+    left: 128px;
+    top: 426px;
+position: absolute;
+
+
+
+
+}
 
